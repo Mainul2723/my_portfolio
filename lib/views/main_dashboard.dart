@@ -21,6 +21,8 @@ class MainDashboard extends StatefulWidget {
 }
 
 class _MainDashboardState extends State<MainDashboard> {
+  var menuIndex = 0;
+  var fixedPageIndex = 0;
   final isMenuHover = Matrix4.identity()..scale(1.0);
   final menuItems = <String>[
     'Home',
@@ -28,10 +30,8 @@ class _MainDashboardState extends State<MainDashboard> {
     'Projects',
     'Contact',
   ];
-
   final yourScrollController = ScrollController();
 
-  var menuIndex = 0;
   final screen = const <Widget>[
     HomePage(),
     AboutMe(),
@@ -39,6 +39,14 @@ class _MainDashboardState extends State<MainDashboard> {
     ContactMe(),
     Footer(),
   ];
+  void handleMenuItemTap(int index) {
+    if (index != fixedPageIndex) {
+      setState(() {
+        menuIndex = index;
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -84,22 +92,18 @@ class _MainDashboardState extends State<MainDashboard> {
                       ),
                       itemBuilder: (context, index) {
                         return InkWell(
-                          onTap: () {},
+                          onTap: () => handleMenuItemTap(index),
                           borderRadius: BorderRadius.circular(100),
                           onHover: (value) {
                             setState(() {
-                              if (value) {
-                                menuIndex = index;
-                              } else {
-                                menuIndex = 0;
-                              }
+                              menuIndex = index;
                             });
                           },
                           child: Container(
                             padding:
                                 const EdgeInsets.symmetric(horizontal: 8.0),
                             child: buildAnimatedContainer(
-                                index, menuIndex == index ? true : false),
+                                index, menuIndex == index),
                           ),
                         );
                       },
@@ -114,26 +118,32 @@ class _MainDashboardState extends State<MainDashboard> {
           },
         ),
       ),
+      //body: screen[menuIndex],
       body: screen[menuIndex],
     );
   }
 
   AnimatedContainer buildAnimatedContainer(int index, bool hover) {
     return AnimatedContainer(
-      alignment: Alignment.center,
-      width: hover ? 80 : 75,
-      duration: const Duration(milliseconds: 200),
-      transform: hover ? isMenuHover : null,
-      child: Center(
-        // Center the text within the container
-        child: Text(
-          menuItems[index],
-          overflow: TextOverflow.ellipsis,
-          style: AppTextStyles.headingTextStyle(
-            color: hover ? AppColors.themeColor : Colors.white,
+        alignment: Alignment.center,
+        width: hover ? 80 : 75,
+        duration: const Duration(milliseconds: 200),
+        transform: hover ? isMenuHover : null,
+        child: Center(
+          child: InkWell(
+            onTap: () {
+              // Use Navigator to navigate to the corresponding page
+              handleMenuItemTap(index);
+            },
+            // Center the text within the container
+            child: Text(
+              menuItems[index],
+              overflow: TextOverflow.ellipsis,
+              style: AppTextStyles.headingTextStyle(
+                color: hover ? AppColors.themeColor : Colors.white,
+              ),
+            ),
           ),
-        ),
-      ),
-    );
+        ));
   }
 }

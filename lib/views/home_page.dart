@@ -26,6 +26,7 @@ class _HomePageState extends State<HomePage> {
     AppAsset.twit,
   ];
   var socialBI;
+
   @override
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
