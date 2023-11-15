@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages, deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/globals/app_assets.dart';
 import 'package:my_portfolio/globals/app_button.dart';
@@ -5,6 +7,7 @@ import 'package:my_portfolio/globals/app_color.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:my_portfolio/globals/app_text_styles.dart';
 import 'package:my_portfolio/helper%20class/helper_class.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class AboutMe extends StatelessWidget {
   const AboutMe({super.key});
@@ -56,7 +59,7 @@ class AboutMe extends StatelessWidget {
     return FadeInRight(
       duration: const Duration(milliseconds: 1200),
       child: Image.asset(
-        AppAsset.mainul,
+        AppAsset.mainul1,
         height: 450,
         width: 400,
         //alignment: Alignment.center,
@@ -120,7 +123,11 @@ class AboutMe extends StatelessWidget {
           FadeInUp(
               duration: const Duration(milliseconds: 1600),
               child: AppButton.buildMaterialButton(
-                  onTap: () {}, buttonName: 'Read More')),
+                  onTap: () {
+                    launch(
+                        'https://www.linkedin.com/in/mainul-islam-b9781b263/');
+                  },
+                  buttonName: 'Read More')),
         ],
       ),
     );

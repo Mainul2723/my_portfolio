@@ -8,5 +8,6 @@ class AppAsset {
   static String analytics = 'assets/images/analytics.png';
   static String brush = 'assets/images/brush-stroke.png';
   static String coding = 'assets/images/coding.png';
-  static String mainul = 'assets/images/mainul.png';
+  //static String mainul = 'assets/images/mainul.png';
+  static String mainul1 = 'assets/images/mainul1.png';
 }

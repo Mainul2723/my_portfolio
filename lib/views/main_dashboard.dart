@@ -1,4 +1,4 @@
-// ignore_for_file: unused_import, duplicate_ignore
+// ignore_for_file: unused_import, duplicate_ignore, avoid_web_libraries_in_flutter
 
 import 'dart:html';
 
@@ -12,6 +12,7 @@ import 'package:my_portfolio/views/contact_me.dart';
 import 'package:my_portfolio/views/footer_class.dart';
 import 'package:my_portfolio/views/home_page.dart';
 import 'package:my_portfolio/views/my_projects.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MainDashboard extends StatefulWidget {
   const MainDashboard({super.key});
@@ -79,10 +80,16 @@ class _MainDashboardState extends State<MainDashboard> {
               return Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text('Portfolio', style: AppTextStyles.headingTextStyle()),
+                  Text(
+                    'Mainul\'s Portfolio',
+                    style: GoogleFonts.oswald(
+                      fontSize: 28,
+                      fontWeight: FontWeight.w300,
+                    ),
+                  ),
                   const Spacer(),
                   SizedBox(
-                    height: 30,
+                    height: 40,
                     child: ListView.separated(
                       itemCount: menuItems.length,
                       shrinkWrap: true,

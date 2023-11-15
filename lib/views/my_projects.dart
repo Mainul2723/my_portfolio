@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
 // ignore: depend_on_referenced_packages
 import 'package:animate_do/animate_do.dart';
@@ -7,6 +9,7 @@ import 'package:my_portfolio/globals/app_button.dart';
 import 'package:my_portfolio/globals/app_color.dart';
 import 'package:my_portfolio/globals/app_text_styles.dart';
 import 'package:my_portfolio/helper%20class/helper_class.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class MyServices extends StatefulWidget {
   const MyServices({super.key});
@@ -83,66 +86,68 @@ class _MyServicesState extends State<MyServices> {
             ),
           ],
         ),
-        tablet: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            buildMyService(),
-            const SizedBox(
-              height: 60,
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                InkWell(
-                  onTap: () {},
-                  onHover: (value) {
-                    setState(() {
-                      isSalat = value;
-                    });
-                  },
-                  child: buildAnimateContainer(
-                    title: 'Salat',
-                    asset: AppAsset.coding,
-                    hover: isSalat,
-                  ),
-                ),
-                const SizedBox(
-                  height: 24,
-                ),
-                InkWell(
-                  onTap: () {},
-                  onHover: (value) {
-                    setState(() {
-                      isQuiz = value;
-                    });
-                  },
-                  child: buildAnimateContainer(
-                    title: 'Quiz App',
-                    asset: AppAsset.brush,
-                    hover: isQuiz,
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(
-              height: 26,
-            ),
-            InkWell(
-              onTap: () {},
-              onHover: (value) {
-                setState(() {
-                  isRoll = value;
-                });
-              },
-              child: buildAnimateContainer(
-                title: 'Roll Dice',
-                asset: AppAsset.analytics,
-                hover: isRoll,
-                width: 725.0,
-                hoverWidth: 735.0,
+        tablet: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              buildMyService(),
+              const SizedBox(
+                height: 60,
               ),
-            ),
-          ],
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  InkWell(
+                    onTap: () {},
+                    onHover: (value) {
+                      setState(() {
+                        isSalat = value;
+                      });
+                    },
+                    child: buildAnimateContainer(
+                      title: 'Salat',
+                      asset: AppAsset.coding,
+                      hover: isSalat,
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 24,
+                  ),
+                  InkWell(
+                    onTap: () {},
+                    onHover: (value) {
+                      setState(() {
+                        isQuiz = value;
+                      });
+                    },
+                    child: buildAnimateContainer(
+                      title: 'Quiz App',
+                      asset: AppAsset.brush,
+                      hover: isQuiz,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(
+                height: 26,
+              ),
+              InkWell(
+                onTap: () {},
+                onHover: (value) {
+                  setState(() {
+                    isRoll = value;
+                  });
+                },
+                child: buildAnimateContainer(
+                  title: 'Roll Dice',
+                  asset: AppAsset.analytics,
+                  hover: isRoll,
+                  width: 725.0,
+                  hoverWidth: 735.0,
+                ),
+              ),
+            ],
+          ),
         ),
         desktop: Column(
           mainAxisSize: MainAxisSize.min,
@@ -169,7 +174,16 @@ class _MyServicesState extends State<MyServices> {
                       });
                     },
                     child: buildAnimateContainer(
-                        title: 'Salat', asset: AppAsset.coding, hover: isSalat),
+                      title: 'Salat',
+                      asset: AppAsset.coding,
+                      hover: isSalat,
+                      description:
+                          'The Salat app shows the timetable of the salat based on their location, forbidden times of prayers. It also navigates the Qibla location. '
+                          'The next feature of this app is Surah, Hadith and Mosques. There is also an Arabic Calendar',
+                      buttonName: 'Read More',
+                      link:
+                          'https://github.com/Mainul2723/SALAT-Android-Studio-JAVA',
+                    ),
                   ),
                 ),
                 const SizedBox(
@@ -186,6 +200,10 @@ class _MyServicesState extends State<MyServices> {
                     title: 'Quiz App',
                     asset: AppAsset.brush,
                     hover: isQuiz,
+                    description:
+                        'Quiz App is a flutter project Enhanced UI and Result scrren shows the user input and the right ans',
+                    buttonName: 'Read More',
+                    link: 'https://github.com/Mainul2723/QuizApp',
                   ),
                 ),
                 const SizedBox(
@@ -202,6 +220,10 @@ class _MyServicesState extends State<MyServices> {
                     title: 'Roll Dice',
                     asset: AppAsset.analytics,
                     hover: isRoll,
+                    description:
+                        'It\'s a simple Roll Dice App created with flutter framewrok',
+                    buttonName: 'Read More',
+                    link: 'https://github.com/Mainul2723/Flutter_RollerDice',
                   ),
                 ),
               ],
@@ -238,8 +260,11 @@ class _MyServicesState extends State<MyServices> {
     required String title,
     required String asset,
     required bool hover,
+    String description = '',
+    String buttonName = '',
     double width = 350,
     double hoverWidth = 360,
+    String link = '',
   }) {
     return AnimatedContainer(
       duration: const Duration(milliseconds: 600),
@@ -280,18 +305,16 @@ class _MyServicesState extends State<MyServices> {
             height: 12,
           ),
           Text(
-            'Android developer with 1 year\'s experience '
-            'crafting top-tier apps in Java and Dart. Firm '
-            'grasp of Android SDK and Material Design.'
-            'User-focused, I prioritize clean code, app '
-            'performance',
+            description,
             style: AppTextStyles.normalStyle(fontSize: 14),
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 20),
           AppButton.buildMaterialButton(
-            onTap: () {},
-            buttonName: 'Read More',
+            onTap: () {
+              launch(link);
+            },
+            buttonName: buttonName,
           ),
         ],
       ),

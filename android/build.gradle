@@ -1,3 +1,4 @@
+android {
 buildscript {
     ext.kotlin_version = '1.7.10'
     repositories {
@@ -28,4 +29,8 @@ subprojects {
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
+}
+ lintOptions {
+        disable 'flutter-deprecated'
+    }
 }

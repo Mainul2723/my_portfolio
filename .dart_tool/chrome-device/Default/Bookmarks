@@ -1,0 +1,392 @@
+{
+   "checksum": "e83a03fcf169e1c7edd9150c1e701f82",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13334697035248678",
+            "date_last_used": "0",
+            "guid": "c84c6be3-97ab-4252-bdbd-2522ecad3a79",
+            "id": "7",
+            "name": "(102) Flutter Core Features | Flutter Tutorial Bangla | Part 01 - YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=PYC0PFCyj8Y&list=PLkyGuIcLcmx1mIPyMdVodlSVJqL7Y9Wv7"
+         }, {
+            "date_added": "13330098561176880",
+            "date_last_used": "0",
+            "guid": "66a40303-5d46-46b5-adcc-33a8c919f86b",
+            "id": "8",
+            "name": "Integer 43 A Schedule - Fall 2022 - Google Sheets",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1B8O6_aWxSytZkBdFrpoaaRQFR9dyCl6WhYb3uR5A3fM/edit#gid=815719799"
+         }, {
+            "date_added": "13327662484125277",
+            "date_last_used": "0",
+            "guid": "b2063f20-4a8a-47ec-abc4-b3553ed775fd",
+            "id": "9",
+            "name": "Classes",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://classroom.google.com/"
+         }, {
+            "date_added": "13324973836696254",
+            "date_last_used": "0",
+            "guid": "2a8884b5-ded0-4225-a97d-e9462d7fbf8b",
+            "id": "10",
+            "name": "Facebook",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.facebook.com/"
+         }, {
+            "date_added": "13325063978249612",
+            "date_last_used": "0",
+            "guid": "c234d59c-0cf7-4c81-9c24-08ed97587963",
+            "id": "11",
+            "name": "Course Dashboard - Bohubrihi",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://bohubrihi.com/dashboard/"
+         }, {
+            "date_added": "13325102548679823",
+            "date_last_used": "0",
+            "guid": "92d1de7f-833a-4c61-b654-b38333bfd52d",
+            "id": "12",
+            "name": "YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13325151863736998",
+            "date_last_used": "0",
+            "guid": "672ec51e-f188-4c8d-8876-ff36e3ef3d77",
+            "id": "13",
+            "name": "Surah Al-Mulk - আল মুলক বাংলা উচ্চারণ ও অর্থ, Audio, Arabic Ayat & English Meaning",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://alqurans.com/al-mulk.html"
+         }, {
+            "date_added": "13330372768032640",
+            "date_last_used": "0",
+            "guid": "8114f6c2-8c5e-4e7e-b5c6-71648b267b7a",
+            "id": "14",
+            "name": "Sep,2023 - Google Sheets",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/16iQu5xJSqqi376lK3Jqz6THvQLPZBEfyzEKwgrLXfLw/edit?fbclid=IwAR036IG20CXd0oth58m-pu7U1NEFmZ0oCqRWjegGOaBGC_xbFyTDuqiWApM#gid=1562954041"
+         }, {
+            "date_added": "13325670592757396",
+            "date_last_used": "0",
+            "guid": "13d3c846-f69d-4b14-93f2-24ef9e24617b",
+            "id": "15",
+            "name": "Exercism",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://exercism.org/"
+         }, {
+            "date_added": "13330198699161701",
+            "date_last_used": "0",
+            "guid": "37b5970a-139c-42f9-a70d-5e39fa4e0737",
+            "id": "16",
+            "name": "DOT SelfCare",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://selfcare.dotinternetbd.com/customer/dashboard"
+         }, {
+            "date_added": "13338288193987468",
+            "date_last_used": "0",
+            "guid": "08de1c3e-b603-4701-bc07-5976adbca1df",
+            "id": "17",
+            "name": "https://docs.google.com/spreadsheets/d/16iQu5xJSqqi376lK3Jqz6THvQLPZBEfyzEKwgrLXfLw/edit?fbclid=IwAR036IG20CXd0oth58m-pu7U1NEFmZ0oCqRWjegGOaBGC_xbFyTDuqiWApM#gid=1562954041",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/16iQu5xJSqqi376lK3Jqz6THvQLPZBEfyzEKwgrLXfLw/edit?fbclid=IwAR036IG20CXd0oth58m-pu7U1NEFmZ0oCqRWjegGOaBGC_xbFyTDuqiWApM#gid=1562954041"
+         }, {
+            "date_added": "13325670621877734",
+            "date_last_used": "0",
+            "guid": "eaf78579-3f2c-4d04-94f6-27aedf69d4ea",
+            "id": "18",
+            "name": "Password Manager",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://passwords.google.com/"
+         }, {
+            "date_added": "13326705929293803",
+            "date_last_used": "0",
+            "guid": "65040c25-783b-41b7-be7c-63cf7a90b6fd",
+            "id": "19",
+            "name": "CTG Hub",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://ctghub.com/?fbclid=IwAR1jSHhKUYb_0miwvqS1YEPGrgefmxlgJcfdIKd-EuYVSuq_HnYBfL3DJw0"
+         }, {
+            "date_added": "13326895728942973",
+            "date_last_used": "0",
+            "guid": "2f1166bb-4c73-4054-bf58-96556bbc8462",
+            "id": "20",
+            "name": "CrazyHD",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.chd4.com/index.php"
+         }, {
+            "date_added": "13327436122670566",
+            "date_last_used": "0",
+            "guid": "a9924f6d-00f2-48d6-afe2-2ef1965cbb73",
+            "id": "21",
+            "name": "Home - TorrentBD",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.torrentbd.com/"
+         }, {
+            "date_added": "13327662710828112",
+            "date_last_used": "0",
+            "guid": "19cbb3a6-2362-41f6-9e90-6368cecc5dd3",
+            "id": "22",
+            "name": "Drug addiction in Bangladesh-Suicidal Detection | Kaggle",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.kaggle.com/code/sunilsharanappa/drug-addiction-in-bangladesh-suicidal-detection/notebook"
+         }, {
+            "date_added": "13328080980914060",
+            "date_last_used": "0",
+            "guid": "f37bc8e3-2c1e-4844-8b92-da4cd938bf51",
+            "id": "23",
+            "name": "Inbox (3,219) - 190104016@aust.edu - Ahsanullah University of Science and Technology Mail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+         }, {
+            "date_added": "13328197227834101",
+            "date_last_used": "0",
+            "guid": "d7704982-77b4-41a0-8e62-9bd0ba1f4b2d",
+            "id": "24",
+            "name": "GPT-4",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://openai.com/product/gpt-4"
+         }, {
+            "date_added": "13328197231290907",
+            "date_last_used": "0",
+            "guid": "9625605f-330f-4149-a7c5-3b2efae2b678",
+            "id": "25",
+            "name": "Suicidal Thought Detection | Kaggle",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.kaggle.com/code/abhijitsingh001/suicidal-thought-detection/notebook"
+         }, {
+            "date_added": "13328469316868305",
+            "date_last_used": "0",
+            "guid": "b9a9cb39-2815-424c-9fb8-e0b003192be7",
+            "id": "26",
+            "name": "chatgpt4",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://chat.openai.com/"
+         }, {
+            "date_added": "13329338128682305",
+            "date_last_used": "0",
+            "guid": "fc076ac8-f802-4118-a3ca-51040219fd4a",
+            "id": "27",
+            "name": "4.2 - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1xcon2nY8his2NaemXEhSkunVY4JAdY3W?fbclid=IwAR28OYVFoid67QJqozj4yZ2lEXfuqtxF9H6tpRC3TMe-ggMc3AAgF-RaEnE"
+         }, {
+            "date_added": "13329414688240000",
+            "date_last_used": "0",
+            "guid": "a6c2c5b5-d3e4-4ccd-a2fc-a7925dd2b4d0",
+            "id": "28",
+            "name": "Soft Computing",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1wr14N0PdN7sLZ1av6zs4hHy-K-iZcTVp?fbclid=IwAR2h0XxyFrt7PjIIO26KQZqc5VFh3yZ2gP-r4LLTaGe7uVJFaRCvdb0QFpk"
+         }, {
+            "date_added": "13329764540364242",
+            "date_last_used": "0",
+            "guid": "8bb95855-4a08-4b6c-92b9-9e52bce368ea",
+            "id": "29",
+            "name": "4.2 LAB",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1EYKitH99KRVbZQsItcJguYdP1meUlA0X?fbclid=IwAR3Ir38MNLi7o5SrF9BWqvUHxAt4_aRwbd3F_1s1A30_U0KppQFNRTXbaRc"
+         }, {
+            "date_added": "13333107546324989",
+            "date_last_used": "0",
+            "guid": "575cdd58-a71f-4a65-b5db-4f51283d9cf0",
+            "id": "30",
+            "name": "Watch Bengali Movies | Original Web Series",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.hoichoi.tv/"
+         }, {
+            "date_added": "13338365794794366",
+            "date_last_used": "0",
+            "guid": "516800f4-b625-4d27-8813-220be2c0b9c1",
+            "id": "31",
+            "name": "4.2 Semester Final Quick Links - Integer 43 - Google Docs",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://docs.google.com/document/d/1-eZI1c5LT9WFwuvI9h4ssYJ1FemrIe4pmNQM4VA1t_Q/edit?fbclid=IwAR3FUJkGet2z-0NQAp1ou7m_apRr23VOrBbI2V_Hk9MQRlln5aep495qtVU"
+         }, {
+            "date_added": "13338663156175828",
+            "date_last_used": "0",
+            "guid": "35634e2b-5810-4d4a-b009-fc4a3c5ef302",
+            "id": "32",
+            "name": "The UNDETECTABLE AI Writing Tool That Bypasses AI Detectors",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://undetectable.ai/?fpr=xethc&gclid=CjwKCAjwjOunBhB4EiwA94JWsAS2aQ31VsBBUSa6tTpQSB5CUoeffACntIXTvm52Pm5nN7KLV5wErBoCibYQAvD_BwE"
+         }, {
+            "date_added": "13339270296635528",
+            "date_last_used": "0",
+            "guid": "9759ffdd-cf0d-41e4-8a89-0da3ed4bced6",
+            "id": "33",
+            "name": "Home - Moghbazar Dot Net",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://moghbazar.net/"
+         }, {
+            "date_added": "13341912199186016",
+            "date_last_used": "0",
+            "guid": "7f34aed4-85e8-492c-a9a3-6d4a3d45267a",
+            "id": "34",
+            "name": "Bangladesh NID Application System",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://services.nidw.gov.bd/nid-pub/citizen-home/"
+         }, {
+            "date_added": "13343254721419575",
+            "date_last_used": "0",
+            "guid": "da2572b8-0fb5-4ae3-ae70-a8957445c3a9",
+            "id": "35",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Flutter Dice Roll App",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://chat.openai.com/c/8fd66e59-5997-41fc-ae87-229697c5736b"
+         }, {
+            "date_added": "13343327925056725",
+            "date_last_used": "0",
+            "guid": "2e01f639-955b-4cba-a752-8b57b9d93fe3",
+            "id": "36",
+            "name": "Jellyfin",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://103.163.116.166:8096/web/index.html#!/home.html"
+         }, {
+            "date_added": "13343762344970627",
+            "date_last_used": "0",
+            "guid": "49f5c53c-4e19-4a6c-8d55-22be9dc26b31",
+            "id": "37",
+            "name": "Instantly parse JSON in any language | quicktype",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://app.quicktype.io/"
+         }, {
+            "date_added": "13343895799014619",
+            "date_last_used": "0",
+            "guid": "53f6e80e-6d71-4e7f-bfd4-c5b7566d0b23",
+            "id": "38",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Thesis_PretrainedModel",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://localhost:8888/notebooks/Thesis_PretrainedModel.ipynb"
+         }, {
+            "date_added": "13344138847853134",
+            "date_last_used": "0",
+            "guid": "fd5e1fad-3760-4b18-b05a-2eab2ea0a147",
+            "id": "39",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "personal-portfolio-website/lib/views/home_page.dart at master · Mukhtar-Ali-Khan/personal-portfolio-website",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://github.com/Mukhtar-Ali-Khan/personal-portfolio-website/blob/master/lib/views/home_page.dart"
+         }, {
+            "date_added": "13344246470193183",
+            "date_last_used": "0",
+            "guid": "8181c0da-9ce8-43ca-988b-0cc209500131",
+            "id": "40",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Widget",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://boltuix.github.io/#/"
+         } ],
+         "date_added": "13344508183632666",
+         "date_last_used": "0",
+         "date_modified": "13344246470193183",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13344508183632671",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13344508183632673",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCH0ODdKLAQAAEgAgASoYSVA3Zm02U21pT21KSVJTcXd2Z3FVQT09oAYMEokBCAMShAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGJmODdkZjYyLWIwZmMtNTEyMy04NWU3LTlkN2IxNDU0NTdiMhgAIAAoADDh4Ijx3i44s9mbvOkvQLPZm7zpL0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASqgEIHxKlAQocQ0dhK1lZYVUyVm4wSEUzL0hMQ1lXM2NQemJFPRIkNTE2ODAwZjQtYjYyNS00ZDI3LTg4MTMtMjIwYmUyYzBiOWMxGAAgACgAMPP33p6mMTiQ+t6epjFAkPrenqYxShxWVTJqblFMa0JocCtyY1o5azNDd3JIbFpmVEk9WiEiH////WRya1M3dmxpdnE4dGJPRTBYVFhmWkUrZzVUWT1l1UdNNBKnAQgJEqIBChxqTURaZEFyZVRTbTcxZnVBc2dPNFhwZHk2cVk9EiRiMjA2M2YyMC00YThhLTQ3ZWMtYWJjNC1iMzU1M2VkNzc1ZmQYACAAKAAwuM7fj70xOMPUgK/+MEC4zt+PvTFKHDNtK29lRlpJN0dXMGRFWXl2UG5pSjF0SDY3dz1aHiIcM0lVZXZSS0NEZG5haVJIbStCc2hjbmtiYkI0PWULUWxnEqgBCBISowEKHEFFRGpIMGRoelU0YUN6MlRNZnpTelpZSm85OD0SJGVhZjc4NTc5LTNmMmMtNGQwNC05NGY2LTI3YWVkZjY5ZDRlYRgAIAAoADDXub6knjE4m4Ob+fYwQJuDm/n2MEocTVVFaUxZakRDR3VmTkpSaHpEWEtNQWR6cUlBPVofIh33UGhKdVp1MnlZa2NXakVyOUpwNldxbStFTkxBPWUQMP/kEqoBCB4SpQEKHGwyakhtcFlNbmpYdGVKODBrbnJKc3QyazQwMD0SJDU3NWNkZDU4LWE3MWYtNGE2NS1iNWRiLTRmNTEyODNkOWNmMBgAIAAoADDk+7TTkjE4lv6005IxQJb+tNOSMUocdVk5WENkaHR3S0lwVS96QTAwai83d0F6ZG1jPVohIh////t0bi9BR0NvWHNmKzFiRjQxK3YwWjUydFJmVWs9ZeugvnoSqAEIBxKjAQocRWpJWGgvOHJCRFV4OFRzWUVJWWd6SU5kcDJnPRIkYzg0YzZiZTMtOTdhYi00MjUyLWJkYmQtMjUyMmVjYWQzYTc5GAAgACgAMLnO34+9MTjp2KvJmDFAuc7fj70xShxHNHZmNDByQ3c1UTJmT0YvdlpUemxyeG5WaGs9Wh8iHQw3Y2NKMlR3TlByVUJzaHhzUGtrYm52akNhRFk9ZTj5OTMSqAEICBKjAQocdGVtYTdEYzVaWjh3NE1qR2NVdENpVmlqNHZJPRIkNjZhNDAzMDMtNWQ0Ni00NmI1LWFkY2MtMzNhOGM5MTlmODZiGAAgACgAMLrO34+9MTiRhc+4hzFAus7fj70xShxRbkJybXF4YnRlcXFjZ3lTd2poQVBuYkFxV0E9Wh8iHRlqTmVzNnBUcUtVTStQUFlreGhtczZVck9LWWM9Zbkqbt4SqAEIExKjAQocc3lqSlVDN3I3ZjFBd1hPaXpRcU4vOG9VVVZRPRIkNjUwNDBjMjUtNzgzYi00MWI3LWJlN2MtNjNjZjdhOTBiNmZkGAAgACgAMOOL8eb6MDjTjPHm+jBA04zx5vowShxMRGRsZTVSNzlqZWlnamxwY2YvUDFmd04zZjQ9Wh8iHf1TYm0zVVA1RXVlNitkWHJONjgwRzhwd0dmWEU9ZQAAAAASqAEIFBKjAQocYTA5aHNVM1BTN1J6UzZ1T3Q1aTFndmxDbnBZPRIkMmYxMTY2YmItNGM3My00MDU0LWJmNTgtOTY1NTZiYmM4NDYyGAAgACgAMPftmtKzMTiC3LHB+zBAgtyxwfswShwvRDh0ZTQxTGNReDA1SnIyNWpGT1diZTVYVUk9Wh8iHf5YUGFldXY0TUM1bGtqb0pSSGk4clY1Q3B0U289ZQaroNcSqQEIFRKkAQocOUtQUmw2Rk5ReXpZcFh6OHZONTJkNjh1TkRnPRIkYTk5MjRmNmQtMDBmMi00OGQ2LWFmZTItMmVmMTk2NWNiYjczGAAgACgAMNmApMCrMTjK2IjD/TBAytiIw/0wShxXTHlZQUU0Z0lQRFhRS1lKVTVHdHBGaU00dU09WiAiHv+4ZUZHWjNTb3k5Z2s4SnRVRytzT0JQSjR0U2dNPWVtCNQ0EqcBCAsSogEKHG16NDMvSHZndDltTkJlYjJVQXhtaTJsZ3ZQWT0SJGMyMzRkNTljLTBjZjctNGM4MS05YzI0LTA4ZWQ5NzU4Nzk2MxgAIAAoADC8zt+PvTE4/sP41/QwQLzO34+9MUocdm9NWFFySkRiOGJCcHc1THZxY1ZyK2Y5c09NPVoeIhx2L1kyVzA3TVN3VUV6VHdzUzNCNnh2eURpdms9ZXGTkGASpwEIChKiAQocT3J1dnJDZlFrN01JdUpDa3g0MGNzMHh0TGxZPRIkMmE4ODg0YjUtZGVkMC00MjI1LWE5N2QtZTk0NjJkN2ZiZjhiGAAgACgAMLvO34+9MTjV1fqs9DBAu87fj70xShw3T1hUbmdaYzhXTW56Yit3S04xNytRSUJsVHM9Wh4iHFBLMEY1UFEwT0tSMmhLb0h3K0V4UnozMW5STT1lEnQ5mhKoAQgMEqMBChxpdkpENk9jenFzRVVRUXdkUkRBMVBkdVBoV3M9EiQ5MmQxZGU3Zi04MzNhLTRjNjEtYjY1NC1iMzgzMzNiZmQ1MmQYACAAKAAwvc7fj70xOKjOqur0MEC9zt+PvTFKHEVuYjNzUFhPaENRYzV3aytDc1k4MEt4RTRwbz1aHyIdu3NNeTNTUXlNTlFZNFpNZmV3SEdqa0dKY0k0az1lOPk5MxKoAQgPEqMBChw0WDNiMU10aVBHL3ZLKzlsTitCWkowSXh6dVk9EiQxM2QzYzg0Ni1mNjlkLTRiMTQtOTNmMi0yNGVmOWUyNDYxN2IYACAAKAAw+Z3U8KYxOMKfmfn2MEDCn5n59jBKHEJKR1JPN3NhdkRWS1BJOTgrQXV3cjNrTXRqcz1aHyId40RVSHVsSFh5ZXRGcXZVQWFYVUROS2p2MGF2dz1l0ZNGGhKJAQgBEoQBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQwMTA0MjNjNC0yZjc5LTU2YzAtYWIzZi0yZmU2YjAyMjE4NDAYACAAKAAw3OCI8d4uOPfXm7zpL0D315u86S9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEokBCAIShAEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGNhNjdmMmI5LWY0NGMtNTVmYi1hMTczLTA2OWRjODVjM2YwNxgAIAAoADDd4Ijx3i44ltibvOkvQJbYm7zpL0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASqQEIFhKkAQocbEltODFTR1V4b1JhcDBQaTRnVUlmNW1GTEZrPRIkMTljYmIzYTYtMjM2Mi00MWY2LTllOTAtNjM2OGNlY2M1ZGQzGAAgACgAMLm8jq/+MDiivY6v/jBAor2Or/4wShxzRSt2T2paNFp1U09SZ2laM2hGRU9CYlpHb2s9WiAiHv/cS2ZObE5XcGh1dTN6R1NGSDIzN2g0WmlGVktRPWUQKv8iEqgBCBASowEKHG5iVVJMRWY3dGNYd2NLZVMzL0wwdGpyZnFjdz0SJDM3YjU5NzBhLTEzOWMtNDJmOS1hNzBkLTVlMzlmYTRlMDczNxgAIAAoADCYpd75pTE468yv6IcxQOvMr+iHMUocOExKQ2ZKNlN3MEZEbnVqa2dFMkxCREY5WUZRPVofIh3lQThaNEh3THE5T1dOQ1kweE1ZRUxudy9WQVc0PWXiXOkWEqgBCBESowEKHFZySXl2VUlWNEJsWW4rZVZzWFVEaWlxbHFSdz0SJDA4ZGUxYzNlLWI2MDMtNDcwMS1iYzA3LTU5NzZhZGJjYTFkZhgAIAAoADCrsszSujE44NHe+aUxQODR3vmlMUocOU1RdzJEZzgwUlFDTjJkVU1UU2FHVTloWjJNPVofIh3pNWNBQWYweGFHZjJvc0s5SVNyNFB4ejlKUm9vPWX7RNdcEqkBCBgSpAEKHGRLRlgzRTNoQTVkQTdHeVZQK2plZXRONVVhbz0SJGQ3NzA0OTgyLTc3YjQtNDFhMC04ZTYyLTliZDBiYTFmNGIyZBgAIAAoADDbnb/FijE41vH+rYAxQNbx/q2AMUocVC82UlNObmVBVloxbS9JSU9OdDJEUXUwbGZVPVogIh7/92tWTU5xa2FoTU92QXhtQmJ5eGNtRE4reDBQQT1lQRbzqBKqAQggEqUBChxPa01pVjUrK05PMDlsdWNaS0ZFZjVtYXQzbWc9EiQzNTYzNGUyYi01ODEwLTRkNGEtYjAwOS1mYzRhM2M1ZWYzMDIYACAAKAAwjMDErKcxOMPDxKynMUDDw8SspzFKHHRiZyt5cXpqOGlTU2R1M0Y1VUtXelBLZHNnND1aISIf///+VWkzVngremhZK2ozaWxRY1VKRGdDaUJpTDkwPWXO4xAnEqgBCA0SowEKHHpFTU83TWlVMWd4eEo2N09Fby9XYUcwTUZscz0SJDY3MmVjNTFlLWYxODgtNGM4ZC04ODc2LWZmMzZlM2VmM2Q3NxgAIAAoADC+zt+PvTE4tM/sgfUwQL7O34+9MUocOUpPTExqbnYvNEpPZ2JOaHpOazhXczk3Q1Y4PVofIh3dUTQzdkgrNlI0RmF0MnhXWWRzTE5raE1oUWNrPWVEAZdHEqkBCBcSpAEKHHFCZzhsVDFNMmdEV0xvZ3RDT0xjTGloUGJwTT0SJGYzN2JjOGUzLTJjMWUtNDg0NC04YjkyLWRhNGNkOTM4YmY1MRgAIAAoADDd8uvpoDE4veHH9v8wQL3hx/b/MEocbDRHV3lhTnBVV0tuRHo4NnpSRmNTZW1UR1J3PVogIh7/7kFDUURaMUtaRkUvc2dYbFBRbUF5a1pDNEczbz1li6CM0RKpAQgaEqQBChxQRnBEM3FVNXVGaXl1UEp6M0NMNEZNQ2crdUE9EiRiOWE5Y2IzOS0yODE1LTQyNGMtOWZiOC1lMGIwMDMxOTJiZTcYACAAKAAw4crer4ExOPHv3a+BMUDx792vgTFKHGtEQjlra2I3UXd5amp0Ym01WGxISjNPUnZKcz1aICIe//1GMnlTSU5SRWNoTTNSTHFncDlJV0tRRkdHemM9ZWkbIvMSqAEIDhKjAQocTGp4Qm9CVUdOWC9HbUxZeVQzb1U3aHhPV2VJPRIkODExNGY2YzItOGM1ZS00ZTdlLWI1YzYtNzE2NDhiMjY3YjdhGAAgACgAML/O34+9MTirqK+7iDFAv87fj70xShxUYVo5cWZ1c0tnRnV0ck16T2x6YWNHNU9LVlk9Wh8iHeExZ0dhcGg4WThXWVJsSjNiUWlIRkoyMmdtM3c9ZftE11wSqwEIJxKmAQocN0tzTnZ3VVVkaDRXeGppZWhibXNDNjJqSUJjPRIkZmQ1ZTFmYWQtMzc2MC00YjE4LWIwNWEtMmVhYjJlYTBhMTQ3GAAgACgAMMOTxt+7MTjwlcbfuzFA8JXG37sxShxONXhMMVcxNFF2ZDFxU0tudFk0WXJPeWZSLzQ9WiIiIP////1zclRzdE84WnBtQndLSFpYV3Z1a2lRMExUU289ZdRM6NASqQEIGRKkAQocQ2xVNVlkOTJVYXdaTzgramRkajY2aTgvN3JJPRIkOTYyNTYwNWYtMzMwZi00MTQ5LWE3YzUtM2IyZWZhZTJiNjc4GAAgACgAMOuI/62AMTjdif+tgDFA3Yn/rYAxShxoNHZKelNuM3MwQlM2R21YVHRHN0E1b0I4ZVE9WiAiHv/7eTFuRjZJTlhLKzFCK2hwMkljbTcwS1dvTkNnPWUQKv8iEqkBCBwSpAEKHDl5SjF4a3Fyc3ZzcWFLWll6WTFicWJ6VFphND0SJGE2YzJjNWI1LWQzZTQtNGNjZC1hMmZjLWE3OTI1ZGQyYjRkMBgAIAAoADC0m8PyhDE429rC8oQxQNvawvKEMUocOHdhZ2JBUVFxSUV6MEh2a2xwQ1RLV2JWL0tBPVogIh7//2xyc2pRa293SGZMRGVSbjg1c1ZzRUdZWVZaST1l+pHe2xKqAQgdEqUBChx2REJuYWZKeTNEZlpyUHJOcHJ4OHFpUzg4TTA9EiQ4YmI5NTg1NS00YTA4LTRiNmMtOTJiOS05ZTUyYmNlMzY4ZWEYACAAKAAwxPysmYYxONaHrJmGMUDWh6yZhjFKHEx5M2ZYMU0yNC82cjZmMC8yV3NvWnVCSnNtYz1aISIf//+2aEw5ck82UEhpblFwU2ljNzdIRXdtUm5lelhzPWX6kd7bEqsBCCgSpgEKHGZFSFQveW1xd2prSTA0VWhlVVBNMFNmWHMrRT0SJDgxODFjMGRhLTljZTgtNDNjYS05ODhiLTBjYzIwOTUwMDEzMRgAIAAoADDWvO+SvDE47/TukrwxQO/07pK8MUocTDQ1U3ByY1BqblZ1WTFrNm1lcE5NZ3JOMzFNPVoiIiD////+YzBPeGkxd2xhNllESXZjSjRpNlJ6YmNoNG13PWVhjmsDEqsBCCISpgEKHEFmZDhYY01EYWtDamYxZ0gwdmhtREsxa1l4MD0SJDdmMzRhZWQ0LTg1ZTgtNDkyYy1hOWEzLTZkNGEzZDQ1MjY3YRgAIAAoADD47ZrSszE4lp6b0rMxQJaem9KzMUocZDRSckk0dkxiLzFBejNCMWZkRWpDakh3MmZ3PVoiIiD///+yTUphSHRLNDBFVVlLOUp6MnFjUG82SHVNNWhvPWUAAAAAEqsBCCYSpgEKHHZ0RHp5UXgyQUx4dzExUlRGTUh4bHBPOFlkZz0SJDUzZjZlODBlLTZkNzEtNGU3Zi1iZmQ0LWM1Yjc1NjZkMGIyMxgAIAAoADCGqoyeuzE4muzT67oxQJrs0+u6MUocUlIyeUVGK3dKRXpMRjFGNXhKbURoNnhnUzhJPVoiIiD////7NFBSWmtlS3FTSk1yVnJ2blJxSGdsTHBjWjZBPWW8q/EgEqsBCCMSpgEKHGprUitJZzZ4QVNkRmFwUDJqYUZoT1RpemhFTT0SJGRhMjU3MmI4LTBmYjUtNGFlMy1hZTcwLWE4OTU3NDQ1YzNhORgAIAAoADC7svu5uDE46rT7ubgxQOq0+7m4MUocTFpYUnZ2QUhlbXB0TTFFdTExcnN3SVJqV1EwPVoiIiD////ZVGlLOTVrVDZrYWVMeU0wZUs5TDIrR0pmVVJFPWVpGyLzEqsBCCUSpgEKHFArY1JUeS8vV2x3QzgvRm9Eb3NIdk9yNVdRbz0SJDQ5ZjVjNTNjLTRlMTktNGE2Yy04ZDU1LTIyYmU5ZGMyNmIzMRgAIAAoADCNu4KsujE4wb+CrLoxQMG/gqy6MUocdmNydmMzVFhqL1hGMXpvTE1OSWtGRGx4NzVBPVoiIiD////2QUpIcUc2bnB1ckxEWkc1ZU9Tb0tRV0NkOEF3PWUma25sEqkBCBsSpAEKHDA3YmRRRHEySDVDVXlHVFd2QnZOc1FpSkRIbz0SJGZjMDc2YWM4LWY4MDItNDExOC1hM2NhLTUxMDQwMjE5ZmQ0YRgAIAAoADCO9oHOhDE4iveBzoQxQIr3gc6EMUocb042bC9IN0YxRmJjbVFBNjk3MEp1VUo2TnhzPVogIh7//mlvTFlQMVN4SnByci9WOURuWmdRcDA2OHhaYz1l+pHe2xKrAQgkEqYBChxqMW1ER2l1RUJHajlrbkRVdWNmYW45YzRreGc9EiQyZTAxZjYzOS05NTViLTRjYmEtYTc1Mi04YjU3YjlkOTNmZTMYACAAKAAw2cfv3LgxOKjK79y4MUCoyu/cuDFKHFdkODFhcDVUdmo1bW44NFR2UnVtS21UbWdlbz1aIiIg////7ENkT29iM3IrNjVQcC9tb0QrMy8zWFljOWh1QT1laQnQARKqAQghEqUBChxlOFROZG1MTmx5NGFyS2hnOHNaekVqcnJaUU09EiQ5NzU5ZmZkZC1jZjBkLTQxZTQtOGE4OS0wZGEzZWQ0YmNlZDYYACAAKAAw/qyFzqkxONawhc6pMUDWsIXOqTFKHFpvdjhpQVZWQ1I4dnFxdW9BZkNXeXVjOVRwOD1aISIf////ZERKdHNqNitXN1ZoR1IreGFPQmpnakZaU1FVPWUAAAAAMAA4AA==",
+   "version": 1
+}

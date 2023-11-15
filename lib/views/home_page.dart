@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages, unused_import, deprecated_member_use, avoid_print
+
 library animate_do;
 
 import 'package:flutter/material.dart';
@@ -9,6 +11,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:my_portfolio/helper%20class/helper_class.dart';
 import 'package:my_portfolio/widget/profile_animation.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -25,7 +28,7 @@ class _HomePageState extends State<HomePage> {
     AppAsset.insta,
     AppAsset.twit,
   ];
-  var socialBI;
+  var socialBI = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -126,14 +129,12 @@ class _HomePageState extends State<HomePage> {
           duration: const Duration(milliseconds: 1600),
           child: SizedBox(
             width: size.width * 0.5,
-            child: Expanded(
-              child: Text(
-                'I am a dedicated Flutter developer with a passion for creating elegant and efficient solutions. '
-                'My commitment to writing clean and well-structured code reflects my unwavering work ethic.',
-                style: AppTextStyles.normalStyle(),
-                maxLines: 3, // Set the maximum number of lines
-                // Specify how to handle overflow
-              ),
+            child: Text(
+              'I am a dedicated Flutter developer with a passion for creating elegant and efficient solutions. '
+              'My commitment to writing clean and well-structured code reflects my unwavering work ethic.',
+              style: AppTextStyles.normalStyle(),
+              maxLines: 3, // Set the maximum number of lines
+              // Specify how to handle overflow
             ),
           ),
         ),
@@ -156,19 +157,17 @@ class _HomePageState extends State<HomePage> {
                     onTap: () {},
                     onHover: (value) {
                       setState(() {
-                        if (value) {
-                          socialBI = index;
-                        } else {
-                          socialBI = null;
-                        }
+                        socialBI = index;
                       });
                     },
                     borderRadius: BorderRadius.circular(550.0),
                     hoverColor: AppColors.themeColor,
                     splashColor: AppColors.lawgreen,
                     child: buildSocialButton(
-                        assest: social[index],
-                        hover: socialBI == index ? true : false),
+                      assest: social[index],
+                      hover: socialBI == index,
+                      index: index,
+                    ),
                   );
                 },
               ),
@@ -179,28 +178,81 @@ class _HomePageState extends State<HomePage> {
         FadeInUp(
           duration: const Duration(milliseconds: 1800),
           child: AppButton.buildMaterialButton(
-              onTap: () {}, buttonName: 'Download CV'),
+              onTap: () {
+                launch(
+                    'https://drive.google.com/file/d/1APYoEqy6zzqvpJifW6bkEXejlPLLSalY/view?usp=sharing');
+              },
+              buttonName: 'Download CV'),
         ),
       ],
     );
   }
 
-  Ink buildSocialButton({required String assest, required bool hover}) {
-    return Ink(
-      width: 45,
-      height: 45,
-      decoration: BoxDecoration(
-        border: Border.all(color: AppColors.bgColor, width: 2.0),
-        color: AppColors.bgColor,
-        shape: BoxShape.circle,
-      ),
-      padding: const EdgeInsets.all(6),
-      child: Image.asset(
-        assest,
-        width: 10,
-        height: 12,
-        color: hover ? AppColors.bgColor : AppColors.themeColor,
-        //fit: BoxFit.fill,
+  // InkWell buildSocialButton({required String assest, required bool hover}) {
+  //   return InkW(
+  //     width: 45,
+  //     height: 45,
+  //     decoration: BoxDecoration(
+  //       border: Border.all(color: AppColors.bgColor, width: 2.0),
+  //       color: AppColors.bgColor,
+  //       shape: BoxShape.circle,
+  //     ),
+  //     padding: const EdgeInsets.all(6),
+  //     child: Image.asset(
+  //       assest,
+  //       width: 10,
+  //       height: 12,
+  //       color: hover ? Colors.white : AppColors.bgColor2,
+  //       //fit: BoxFit.fill,
+  //     ),
+  //   );
+  // }
+
+  InkWell buildSocialButton({
+    required String assest,
+    required bool hover,
+    required int index,
+  }) {
+    final List<String> socialLinks = [
+      'https://www.facebook.com/mainulfahimislam/',
+      'https://github.com/Mainul2723',
+      'https://www.linkedin.com/in/mainul-islam-b9781b263/',
+      'https://www.instagram.com/f__a_h_u/',
+      'https://twitter.com/Mainul2723',
+    ];
+
+    return InkWell(
+      onTap: () async {
+        if (await canLaunch(socialLinks[index])) {
+          await launch(socialLinks[index]);
+        } else {
+          print('Could not launch ${socialLinks[index]}');
+        }
+      },
+      onHover: (value) {
+        setState(() {
+          socialBI = index;
+        });
+      },
+      borderRadius: BorderRadius.circular(550.0),
+      hoverColor: AppColors.themeColor,
+      splashColor: AppColors.lawgreen,
+      child: Ink(
+        width: 45,
+        height: 45,
+        decoration: BoxDecoration(
+          border: Border.all(color: AppColors.bgColor, width: 2.0),
+          color: AppColors.bgColor,
+          shape: BoxShape.circle,
+        ),
+        padding: const EdgeInsets.all(6),
+        child: Image.asset(
+          assest,
+          width: 10,
+          height: 12,
+          color: hover ? Colors.white : AppColors.bgColor2,
+          //fit: BoxFit.fill,
+        ),
       ),
     );
   }

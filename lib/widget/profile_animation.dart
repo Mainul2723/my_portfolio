@@ -14,7 +14,6 @@ class _ProAnimateState extends State<ProAnimate> with TickerProviderStateMixin {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _controller =
         AnimationController(duration: const Duration(seconds: 3), vsync: this)
@@ -25,7 +24,6 @@ class _ProAnimateState extends State<ProAnimate> with TickerProviderStateMixin {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
     _controller.dispose();
   }
@@ -35,9 +33,9 @@ class _ProAnimateState extends State<ProAnimate> with TickerProviderStateMixin {
     return SlideTransition(
       position: _animation,
       child: Image.asset(
-        AppAsset.mainul,
-        width: 350,
-        height: 400,
+        AppAsset.mainul1,
+        width: 450,
+        height: 500,
       ),
     );
   }
