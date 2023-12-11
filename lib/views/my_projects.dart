@@ -29,70 +29,94 @@ class _MyServicesState extends State<MyServices> {
     return Scaffold(
       backgroundColor: AppColors.bgColor,
       body: Helper(
-        mobile: Column(
-          //mainAxisSize: MainAxisSize.min,
-          children: [
-            buildMyService(),
-            const SizedBox(
-              height: 60,
-            ),
-            InkWell(
-              onTap: () {},
-              onHover: (value) {
-                setState(() {
-                  isSalat = value;
-                });
-              },
-              child: Padding(
-                padding: const EdgeInsets.all(50),
-                child: buildAnimateContainer(
-                  title: 'Salat',
-                  asset: AppAsset.coding,
-                  hover: isSalat,
-                ),
-              ),
-            ),
-            const SizedBox(
-              height: 24,
-            ),
-            InkWell(
-              onTap: () {},
-              onHover: (value) {
-                setState(() {
-                  isQuiz = value;
-                });
-              },
-              child: buildAnimateContainer(
-                title: 'Quiz App',
-                asset: AppAsset.brush,
-                hover: isQuiz,
-              ),
-            ),
-            const SizedBox(
-              height: 24,
-            ),
-            InkWell(
-              onTap: () {},
-              onHover: (value) {
-                setState(() {
-                  isRoll = value;
-                });
-              },
-              child: buildAnimateContainer(
-                title: 'Roll Dice',
-                asset: AppAsset.analytics,
-                hover: isRoll,
-              ),
-            ),
-          ],
-        ),
-        tablet: SingleChildScrollView(
+        mobile: SingleChildScrollView(
           child: Column(
-            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
+            // crossAxisAlignment: CrossAxisAlignment.start,
+            //mainAxisSize: MainAxisSize.min,
             children: [
               buildMyService(),
               const SizedBox(
                 height: 60,
+              ),
+              InkWell(
+                onTap: () {},
+                onHover: (value) {
+                  setState(() {
+                    isSalat = value;
+                  });
+                },
+                child: InkWell(
+                  onTap: () {},
+                  onHover: (value) {
+                    setState(() {
+                      isSalat = value;
+                    });
+                  },
+                  child: buildAnimateContainer(
+                    title: 'Salat',
+                    asset: AppAsset.coding,
+                    hover: isSalat,
+                    description:
+                        'The Salat app shows the timetable of the salat based on their location, forbidden times of prayers. It also navigates the Qibla location. '
+                        'The next feature of this app is Surah, Hadith and Mosques. There is also an Arabic Calendar',
+                    buttonName: 'Read More',
+                    link:
+                        'https://github.com/Mainul2723/SALAT-Android-Studio-JAVA',
+                  ),
+                ),
+              ),
+              const SizedBox(
+                height: 24,
+              ),
+              InkWell(
+                onTap: () {},
+                onHover: (value) {
+                  setState(() {
+                    isQuiz = value;
+                  });
+                },
+                child: buildAnimateContainer(
+                  title: 'Quiz App',
+                  asset: AppAsset.brush,
+                  hover: isQuiz,
+                  description:
+                      'Quiz App is a flutter project Enhanced UI and Result scrren shows the user input and the right ans',
+                  buttonName: 'Read More',
+                  link: 'https://github.com/Mainul2723/QuizApp',
+                ),
+              ),
+              const SizedBox(
+                height: 24,
+              ),
+              InkWell(
+                onTap: () {},
+                onHover: (value) {
+                  setState(() {
+                    isRoll = value;
+                  });
+                },
+                child: buildAnimateContainer(
+                  title: 'Roll Dice',
+                  asset: AppAsset.analytics,
+                  hover: isRoll,
+                  description:
+                      'It\'s a simple Roll Dice App created with flutter framewrok',
+                  buttonName: 'Read More',
+                  link: 'https://github.com/Mainul2723/Flutter_RollerDice',
+                ),
+              ),
+            ],
+          ),
+        ),
+        tablet: SingleChildScrollView(
+          child: Column(
+            //mainAxisAlignment: MainAxisAlignment.center,
+            //mainAxisSize: MainAxisSize.min,
+            children: [
+              buildMyService(),
+              const SizedBox(
+                height: 40,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -104,10 +128,24 @@ class _MyServicesState extends State<MyServices> {
                         isSalat = value;
                       });
                     },
-                    child: buildAnimateContainer(
-                      title: 'Salat',
-                      asset: AppAsset.coding,
-                      hover: isSalat,
+                    child: InkWell(
+                      onTap: () {},
+                      onHover: (value) {
+                        setState(() {
+                          isSalat = value;
+                        });
+                      },
+                      child: buildAnimateContainer(
+                        title: 'Salat',
+                        asset: AppAsset.coding,
+                        hover: isSalat,
+                        description:
+                            'The Salat app shows the timetable of the salat based on their location, forbidden times of prayers. It also navigates the Qibla location. '
+                            'The next feature of this app is Surah, Hadith and Mosques. There is also an Arabic Calendar',
+                        buttonName: 'Read More',
+                        link:
+                            'https://github.com/Mainul2723/SALAT-Android-Studio-JAVA',
+                      ),
                     ),
                   ),
                   const SizedBox(
@@ -124,6 +162,10 @@ class _MyServicesState extends State<MyServices> {
                       title: 'Quiz App',
                       asset: AppAsset.brush,
                       hover: isQuiz,
+                      description:
+                          'Quiz App is a flutter project Enhanced UI and Result scrren shows the user input and the right ans',
+                      buttonName: 'Read More',
+                      link: 'https://github.com/Mainul2723/QuizApp',
                     ),
                   ),
                 ],
@@ -142,8 +184,10 @@ class _MyServicesState extends State<MyServices> {
                   title: 'Roll Dice',
                   asset: AppAsset.analytics,
                   hover: isRoll,
-                  width: 725.0,
-                  hoverWidth: 735.0,
+                  description:
+                      'It\'s a simple Roll Dice App created with flutter framewrok',
+                  buttonName: 'Read More',
+                  link: 'https://github.com/Mainul2723/Flutter_RollerDice',
                 ),
               ),
             ],

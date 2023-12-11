@@ -23,12 +23,12 @@ class MainDashboard extends StatefulWidget {
 
 class _MainDashboardState extends State<MainDashboard> {
   var menuIndex = 0;
-  var fixedPageIndex = 0;
+  var fixedPageIndex;
   final isMenuHover = Matrix4.identity()..scale(1.0);
   final menuItems = <String>[
     'Home',
     'About',
-    'Projects',
+    'Project',
     'Contact',
   ];
   final yourScrollController = ScrollController();
@@ -40,12 +40,23 @@ class _MainDashboardState extends State<MainDashboard> {
     ContactMe(),
     Footer(),
   ];
+  bool isNavMenuOpen = false;
+
   void handleMenuItemTap(int index) {
     if (index != fixedPageIndex) {
       setState(() {
         menuIndex = index;
       });
     }
+  }
+
+  void _openNavMenu() {
+    setState(() {
+      isNavMenuOpen = !isNavMenuOpen;
+    });
+    // if (isNavMenuOpen) {
+    //   Scaffold.of(context).openEndDrawer();
+    // }
   }
 
   @override
@@ -56,24 +67,27 @@ class _MainDashboardState extends State<MainDashboard> {
         backgroundColor: AppColors.bgColor,
         toolbarHeight: 90,
         titleSpacing: 40,
-        elevation: 0,
+        elevation: 5,
         title: LayoutBuilder(
           builder: (context, constraints) {
-            if (constraints.maxWidth < 768) {
+            var isNarrowScreen = constraints.maxWidth < 768;
+            if (isNarrowScreen) {
               return Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text('Portfolio', style: AppTextStyles.headingTextStyle()),
+                  Text('Mainul\'s Portfolio',
+                      style: AppTextStyles.headingTextStyle()),
                   const Spacer(),
-                  IconButton(
-                    onPressed: () {},
-                    icon: const Icon(
-                      Icons.menu_sharp,
-                      size: 32,
-                      color: Colors.white,
-                    ),
-                    color: Colors.white,
-                  ),
+                  // IconButton(
+                  //   onPressed:
+                  //       // _openNavMenu;
+                  //       _openNavMenu,
+                  //   icon: const Icon(
+                  //     Icons.menu_sharp,
+                  //     size: 32,
+                  //     color: Colors.white,
+                  //   ),
+                  // ),
                 ],
               );
             } else {
@@ -85,6 +99,7 @@ class _MainDashboardState extends State<MainDashboard> {
                     style: GoogleFonts.oswald(
                       fontSize: 28,
                       fontWeight: FontWeight.w300,
+                      color: Colors.white,
                     ),
                   ),
                   const Spacer(),
@@ -108,7 +123,7 @@ class _MainDashboardState extends State<MainDashboard> {
                           },
                           child: Container(
                             padding:
-                                const EdgeInsets.symmetric(horizontal: 8.0),
+                                const EdgeInsets.symmetric(horizontal: 20.0),
                             child: buildAnimatedContainer(
                                 index, menuIndex == index),
                           ),
@@ -125,8 +140,51 @@ class _MainDashboardState extends State<MainDashboard> {
           },
         ),
       ),
-      //body: screen[menuIndex],
+      endDrawer: buildNavMenu(),
       body: screen[menuIndex],
+    );
+  }
+
+  Widget buildNavMenu() {
+    return Drawer(
+      surfaceTintColor: Colors.white,
+      //backgroundColor: Colors.white,
+      // shadowColor: Colors.white,
+      child: ListView(
+        padding: EdgeInsets.zero,
+        children: [
+          DrawerHeader(
+            decoration: BoxDecoration(
+              color: AppColors.bgColor,
+            ),
+            child: Text(
+              'Mainul\'s Portfolio',
+              style: GoogleFonts.poppins(
+                fontSize: 24,
+                color: Colors.white,
+              ),
+            ),
+          ),
+          buildDrawerItem(0, 'Home'),
+          buildDrawerItem(1, 'About'),
+          buildDrawerItem(2, 'Project'),
+          buildDrawerItem(3, 'Contact'),
+        ],
+      ),
+    );
+  }
+
+  Widget buildDrawerItem(int index, String title) {
+    return ListTile(
+      title: Text(
+        title,
+        style: GoogleFonts.poppins(fontSize: 18),
+      ),
+      onTap: () {
+        handleMenuItemTap(index);
+        Navigator.pop(context);
+        // Close the drawer after tapping a menu item
+      },
     );
   }
 

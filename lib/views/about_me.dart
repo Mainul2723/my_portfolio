@@ -18,9 +18,11 @@ class AboutMe extends StatelessWidget {
     return Helper(
       mobile: Column(
         children: [
-          buildMethod(),
+          Expanded(
+            child: buildMethod(),
+          ),
           const SizedBox(
-            width: 25,
+            height: 10,
           ),
           buildProfile(),
           const SizedBox(
@@ -60,7 +62,7 @@ class AboutMe extends StatelessWidget {
       duration: const Duration(milliseconds: 1200),
       child: Image.asset(
         AppAsset.mainul1,
-        height: 450,
+        height: 380,
         width: 400,
         //alignment: Alignment.center,
       ),

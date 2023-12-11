@@ -25,7 +25,7 @@ class Helper extends StatelessWidget {
             height: size.height,
             width: size.width,
             padding: EdgeInsets.symmetric(
-                vertical: size.height * 0.05, horizontal: 18),
+                vertical: size.height * 0.01, horizontal: 18),
             alignment: Alignment.center,
             color: bgColor,
             child: mobile,
@@ -35,7 +35,7 @@ class Helper extends StatelessWidget {
             height: size.height,
             width: size.width,
             padding: EdgeInsets.symmetric(
-                vertical: size.height * 0.1, horizontal: paddingWidth),
+                vertical: size.height * 0.01, horizontal: paddingWidth),
             alignment: Alignment.center,
             color: bgColor,
             child: tablet,

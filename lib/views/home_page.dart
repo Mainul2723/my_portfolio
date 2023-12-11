@@ -43,15 +43,20 @@ class _HomePageState extends State<HomePage> {
           const Expanded(child: ProAnimate()),
         ],
       ),
-      tablet: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: [
-          Expanded(child: buildHome(size)),
-          const Expanded(
-            child: ProAnimate(),
-          ),
-        ],
+      tablet: Expanded(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: [
+            buildHome(size),
+            const SizedBox(
+              width: 20,
+            ),
+            const Expanded(
+              child: ProAnimate(),
+            ),
+          ],
+        ),
       ),
       desktop: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -71,7 +76,7 @@ class _HomePageState extends State<HomePage> {
   Column buildHome(Size size) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisSize: MainAxisSize.min,
+      mainAxisSize: MainAxisSize.max,
       children: [
         FadeInDown(
           duration: const Duration(milliseconds: 1400),

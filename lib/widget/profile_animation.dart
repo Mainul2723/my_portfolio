@@ -18,8 +18,9 @@ class _ProAnimateState extends State<ProAnimate> with TickerProviderStateMixin {
     _controller =
         AnimationController(duration: const Duration(seconds: 3), vsync: this)
           ..repeat(reverse: true);
-    _animation = Tween(begin: const Offset(0, 0.1), end: const Offset(0, 0.2))
-        .animate(_controller);
+    _animation =
+        Tween(begin: const Offset(0, 0.001), end: const Offset(0, -0.3))
+            .animate(_controller);
   }
 
   @override
