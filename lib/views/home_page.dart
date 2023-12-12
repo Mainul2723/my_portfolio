@@ -185,7 +185,7 @@ class _HomePageState extends State<HomePage> {
           child: AppButton.buildMaterialButton(
               onTap: () {
                 launch(
-                    'https://drive.google.com/file/d/1APYoEqy6zzqvpJifW6bkEXejlPLLSalY/view?usp=sharing');
+                    'https://drive.google.com/drive/folders/1U4f7NjB1-9Ye0JC_dH4i7SiyvxfqAtvI?usp=drive_link');
               },
               buttonName: 'Download CV'),
         ),

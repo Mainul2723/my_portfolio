@@ -94,6 +94,10 @@ image
 2.15
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/image-4.1.3/
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/image-4.1.3/lib/
+intl
+2.12
+file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.17.0/
+file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.17.0/lib/
 js
 2.19
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7/
@@ -106,6 +110,14 @@ lints
 3.0
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/lints-3.0.0/
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/lints-3.0.0/lib/
+logging
+2.19
+file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/logging-1.2.0/
+file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/logging-1.2.0/lib/
+mailer
+2.12
+file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/mailer-5.3.0/
+file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/mailer-5.3.0/lib/
 matcher
 2.18
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.16/
@@ -118,6 +130,10 @@ meta
 2.12
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.10.0/
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.10.0/lib/
+mime
+2.18
+file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/mime-1.0.4/
+file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/mime-1.0.4/lib/
 path
 2.12
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.8.3/
@@ -146,6 +162,10 @@ path_provider_windows
 2.19
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_windows-2.2.1/
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_windows-2.2.1/lib/
+pedantic
+2.12
+file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/pedantic-1.11.1/
+file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/pedantic-1.11.1/lib/
 petitparser
 2.19
 file:///C:/Users/MAINU/AppData/Local/Pub/Cache/hosted/pub.dev/petitparser-5.4.0/
