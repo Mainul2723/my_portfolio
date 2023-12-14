@@ -228,9 +228,9 @@
          },
          "icon": {
             "raster_icon": {
-               "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_dark.png/1.4.3/asset",
-               "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_hc.png/1.4.3/asset",
-               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_light.png/1.4.3/asset"
+               "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_dark.png/1.5.3/asset",
+               "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_hc.png/1.5.3/asset",
+               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_light.png/1.5.3/asset"
             }
          },
          "location": "header_context_menu",
@@ -243,9 +243,9 @@
          },
          "icon": {
             "raster_icon": {
-               "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_dark.png/1.4.3/asset",
-               "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_hc.png/1.4.3/asset",
-               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_light.png/1.4.3/asset"
+               "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_dark.png/1.5.3/asset",
+               "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_hc.png/1.5.3/asset",
+               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_settings_light.png/1.5.3/asset"
             }
          },
          "location": "header_context_menu",
@@ -265,9 +265,9 @@
       "description": "Coupons, compare savings and save money while you shop",
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_maximal_dark.png/1.4.3/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_hc.png/1.4.3/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_maximal_light.png/1.4.3/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_maximal_dark.png/1.5.3/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_hc.png/1.5.3/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_maximal_light.png/1.5.3/asset"
          }
       },
       "id": "523b5ef3-0b10-4154-8b62-10b2ebd00921",
@@ -275,7 +275,7 @@
       "lifetime": "window",
       "locales": [ "af", "am", "ar", "as", "az", "bg", "bn_IN", "bs", "ca", "ca_Es_VALENCIA", "cs", "cy", "da", "de", "el", "en", "en_GB", "es", "es_MX", "et", "eu", "fa", "fi", "fil", "fil", "fr", "fr_CA", "ga", "gd", "gl", "gu", "he", "hi", "hr", "hu", "hy", "id", "is", "it", "ja", "ka", "kk", "km", "kn", "ko", "kok", "kok", "lb", "lo", "lt", "lv", "mi", "mk", "ml", "mr", "ms", "mt", "nb", "ne", "nl", "nn", "or", "pa", "pl", "pt_BR", "pt_PT", "quz", "ro", "ru", "sk", "sl", "sq", "sr_Cyrl_BA", "sr_Cyrl_RS", "sr_Latn_RS", "sv", "ta", "te", "th", "tr", "tt", "ug", "uk", "ur", "uz", "vi", "zh_CN", "zh_TW" ],
       "manifest_version": 3,
-      "name": "Shopping",
+      "name": "Microsoft Shopping",
       "notifications": {
          "enabled": true
       },
@@ -286,7 +286,7 @@
       "target": {
          "url": "edge://shopping"
       },
-      "version": "1.4.3"
+      "version": "1.5.3"
    }, {
       "capabilities": {
          "resize_disabled": true
@@ -675,19 +675,20 @@
       "default_locale": "en",
       "description": "Empower people to express themselves creatively",
       "device_emulation": "mobile",
+      "disabled|device:managed": true,
       "flights": [ "msEdgeSalvador" ],
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_image_creator_maximal_dark.png/1.0.18/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_image_creator_hc.png/1.0.18/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_image_creator_maximal_light.png/1.0.18/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_image_creator_from_designer.png/1.0.20/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_image_creator_from_designer_hc.png/1.0.20/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_image_creator_from_designer.png/1.0.20/asset"
          }
       },
       "id": "2caf0cf4-ea42-4083-b928-29b39da1182b",
       "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAju1cpOiJGRRD8vo1C3uJF4+a2yG916AybO9KMjXs8cHf13sauoXVVh2W21bO1rMhB185eo8PkFBqk6s7TZ4idCHbShdvPUKuzVKNTAbDpg11w8QqZ338q2Dc+ddvhSOj7Y6vgDIKHE92XgfhB63Sw2EjNYMHdBVz03ZKZrmDti11cCegzdNchR41K3b3hiNsQXUV/SwHF6gv6QGZWt80OkUaXDlPt5LmMc/fwW+ib2O13MMhE3uKQtn2XMZEcnkWpdt9XKfVf8jqUdQLiBEByo0xCL5K0Qv/P966OiHxE7lkCgThfOOqY3Q3rEH9V+harnMEhQvQJ/z/G+ebfvHI2QIDAQAB",
       "locales": [ "en" ],
       "manifest_version": 3,
-      "name": "Image Creator",
+      "name": "Image Creator from Designer",
       "notifications": {
          "enabled": false
       },
@@ -695,7 +696,7 @@
          "url": "https://www.bing.com/images/create?FORM=ESHBIC&edgehub=1&lightschemeovr=1&partner=edgehub",
          "url|theme:dark": "https://www.bing.com/images/create?FORM=ESHBIC&edgehub=1&darkschemeovr=1&partner=edgehub"
       },
-      "version": "1.0.18"
+      "version": "1.0.20"
    }, {
       "capabilities": {
          "deprecated_hide_header": false
@@ -835,11 +836,13 @@
       },
       "default_locale": "en",
       "description": "Create engaging visuals with ease",
+      "disabled": true,
+      "disabled|device:managed": false,
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_designer_color.png/1.0.19/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_designer_hc.png/1.0.19/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_designer_color.png/1.0.19/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_designer_color.png/1.0.21/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_designer_hc.png/1.0.21/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_designer_color.png/1.0.21/asset"
          }
       },
       "id": "2cb2db96-3bd0-403e-abe2-9269b3761041",
@@ -860,7 +863,7 @@
       "target": {
          "url": "edge://designer/"
       },
-      "version": "1.0.19"
+      "version": "1.0.21"
    }, {
       "capabilities": {
          "show_domain_in_header": true
@@ -2081,20 +2084,21 @@
       "flights": [ "msEdgeHubAppStart", "msEdgeTransientAppAutoOpen" ],
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_dark.png/1.0.1/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_light.png/1.0.1/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_dark.png/1.2.1/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_light.png/1.2.1/asset"
          }
       },
       "id": "b7a8e9f2-6b0d-4c5b-ae7d-8a6e1f2c7a6f",
       "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1lmCC9ljvQph6LgOF/UCFLZjItgaIKAKYb3MHPUvyI7fj+r3v/T6Y2mrHMljC0NXXzpWYly7T1ZVdkrJ9NiLHnRFNa/QFFUG7mMkcrzHHEseFFxfLsWafEHioqZIhZbOdlHd/8jI0GKYWVBz79J/t3AYFM/iE3RDodr2+AqKm3RLEOcoXvaI9Y5YTLDrApHFxNsJby9qewwP2tDvEg/ojW6gwyvw2d3k1RdM5DhHp/9AESBo/hB9pfLuIzTBq2C2r6JXx3YsHKbGGpCb94JATbufY1JyF3qUl64V0IYKIoo4a58Lut67lqaMrQXiVXWLM5l7qmbwsmWWRKwL2mCIEQIDAQAB",
-      "locales": [ "en" ],
+      "locales": [ "af", "am", "ar", "as", "az", "bg", "bn_IN", "bs", "ca", "ca_Es_VALENCIA", "cs", "cy", "da", "de", "el", "en", "en_GB", "es", "es_MX", "et", "eu", "fa", "fi", "fil", "fr", "fr_CA", "ga", "gd", "gl", "gu", "he", "hi", "hr", "hu", "hy", "id", "is", "it", "ja", "ka", "kk", "km", "kn", "ko", "kok", "lb", "lo", "lt", "lv", "mi", "mk", "ml", "mr", "ms", "mt", "nb", "ne", "nl", "nn", "or", "pa", "pl", "pt_BR", "pt_PT", "quz", "ro", "ru", "sk", "sl", "sq", "sr_Cyrl_BA", "sr_Cyrl_RS", "sr_Latn_RS", "sv", "ta", "te", "th", "tr", "tt", "ug", "uk", "ur", "uz", "vi", "zh_CN", "zh_TW" ],
       "manifest_version": 3,
       "name": "Microsoft Start",
       "pin_by_default": true,
       "target": {
-         "url": "https://www.msn.com/widgets/fullpage/winWidgets/sidebar?experiences=WindowsWidgetsHub"
+         "url": "https://www.msn.com/widgets/fullpage/winWidgets/sidebar?experiences=WindowsWidgetsHub",
+         "url|locale:zh_CN": "https://www.msn.cn/widgets/fullpage/winWidgets/sidebar?experiences=WindowsWidgetsHub"
       },
-      "version": "1.0.1"
+      "version": "1.2.1"
    } ],
    "manifest_version": "4.0.0"
 }
