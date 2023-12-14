@@ -12,9 +12,15 @@ final isHoverRemove = Matrix4.identity()..translate(0, 0, 0);
 
 class MobileContent extends StatefulWidget {
   final Size size;
-  final bool isSalat, isQuiz, isRoll;
+  final bool isExpenseTracker,
+      isQuiz,
+      isEduTechMaster,
+      isHadith,
+      isWoWfood,
+      isSalat;
 
-  const MobileContent(this.size, this.isSalat, this.isQuiz, this.isRoll,
+  const MobileContent(this.size, this.isExpenseTracker, this.isQuiz,
+      this.isEduTechMaster, this.isHadith, this.isWoWfood, this.isSalat,
       {super.key});
 
   @override
@@ -22,7 +28,12 @@ class MobileContent extends StatefulWidget {
 }
 
 class _MobileContentState extends State<MobileContent> {
-  bool isSalat = false, isQuiz = false, isRoll = false;
+  bool isExpenseTracker = false,
+      isQuiz = false,
+      isEduTechMaster = false,
+      isHadith = false,
+      isWoWfood = false,
+      isSalat = false;
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -34,49 +45,142 @@ class _MobileContentState extends State<MobileContent> {
           InkWell(
             onTap: () {},
             onHover: (value) {
-              // Handle hover state
+              setState(() {
+                isExpenseTracker = value;
+              });
             },
-            child: buildAnimateContainer(
-              title: 'Salat',
-              asset: AppAsset.coding,
-              hover: widget.isSalat,
-              description:
-                  'The Salat app shows the timetable of the salat based on their location, forbidden times of prayers...',
-              buttonName: 'Read More',
-              link: 'https://github.com/Mainul2723/SALAT-Android-Studio-JAVA',
+            child: InkWell(
+              onTap: () {},
+              onHover: (value) {
+                setState(() {
+                  isExpenseTracker = value;
+                });
+              },
+              child: buildAnimateContainer(
+                title: 'ExpenseTracket',
+                asset: AppAsset.coding,
+                hover: widget.isExpenseTracker,
+                description:
+                    'Expense Tracker App can track all our day-to-day expenses'
+                    'Features: Dard Mode theme, Pie Chart, Chart Bar, Catagorize Expenses',
+                buttonName: 'Read More',
+                link: 'https://github.com/Mainul2723/ExpenseTracker',
+              ),
             ),
           ),
-          const SizedBox(height: 24),
+          const SizedBox(
+            height: 24,
+          ),
           InkWell(
             onTap: () {},
             onHover: (value) {
-              // Handle hover state
+              setState(() {
+                isQuiz = value;
+              });
             },
             child: buildAnimateContainer(
               title: 'Quiz App',
               asset: AppAsset.brush,
               hover: widget.isQuiz,
               description:
-                  'Quiz App is a flutter project Enhanced UI and Result screen shows the user input and the right ans',
+                  'Quiz App is a flutter project Enhanced UI and Result scrren shows the user input and the right ans',
               buttonName: 'Read More',
               link: 'https://github.com/Mainul2723/QuizApp',
             ),
           ),
-          const SizedBox(height: 24),
+          const SizedBox(
+            height: 24,
+          ),
           InkWell(
             onTap: () {},
             onHover: (value) {
-              // Handle hover state
+              setState(() {
+                isEduTechMaster = value;
+              });
             },
             child: buildAnimateContainer(
-              title: 'Roll Dice',
+              title: 'EduTechMaster',
               asset: AppAsset.analytics,
-              hover: widget.isRoll,
+              hover: widget.isEduTechMaster,
               description:
-                  'It\'s a simple Roll Dice App created with flutter framework',
+                  'EduTechMaster is a Educational App where there are courses according to the topics.User'
+                  'can Bookmark their courses and secured Login-Registration were handled by Firebase-Auth',
               buttonName: 'Read More',
-              link: 'https://github.com/Mainul2723/Flutter_RollerDice',
+              link: 'https://github.com/Mainul2723/EduTechMaster',
             ),
+          ),
+          const SizedBox(
+            height: 24,
+          ),
+          InkWell(
+            onTap: () {},
+            onHover: (value) {
+              setState(() {
+                isHadith = true;
+              });
+            },
+            child: buildAnimateContainer(
+              title: 'HadithApp',
+              asset: AppAsset.analytics,
+              hover: widget.isEduTechMaster,
+              description:
+                  'Clone App which is available on Playstore called HadithApp by IRD Foundation',
+              buttonName: 'Read More',
+              link: 'https://github.com/Mainul2723/hadithApp/tree/master',
+            ),
+          ),
+          const SizedBox(
+            height: 24,
+          ),
+          InkWell(
+            onTap: () {},
+            onHover: (value) {
+              setState(() {
+                isWoWfood = true;
+              });
+            },
+            child: buildAnimateContainer(
+              title: 'WoWfood',
+              asset: AppAsset.analytics,
+              hover: widget.isEduTechMaster,
+              description:
+                  'This is a Restaurant Theme Website Template, designed using html, Bootstrap and css. User can order food, foods will'
+                  'automatically add to the cart where user can edit the orders quantity. For more go through the index.html Thank you',
+              buttonName: 'Read More',
+              link: 'https://mainul2723.github.io/WoWFood-HTML-BOOTSTRAP/',
+            ),
+          ),
+          const SizedBox(
+            height: 24,
+          ),
+          InkWell(
+            onTap: () {},
+            onHover: (value) {
+              setState(() {
+                isSalat = value;
+              });
+            },
+            child: InkWell(
+              onTap: () {},
+              onHover: (value) {
+                setState(() {
+                  isSalat = value;
+                });
+              },
+              child: buildAnimateContainer(
+                title: 'Salat',
+                asset: AppAsset.coding,
+                hover: isSalat,
+                description:
+                    'The Salat app shows the timetable of the Salat based on their location, forbidden times of prayers. It also navigates the Qibla location. '
+                    'The next feature of this app is Surah, Hadith and Mosques. There is also an Arabic Calendar',
+                buttonName: 'Read More',
+                link: 'https://github.com/Mainul2723/Salat-Android-Studio-JAVA',
+              ),
+            ),
+          ),
+          const SizedBox(
+            height: 24,
           ),
         ],
       ),

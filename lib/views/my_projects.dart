@@ -22,7 +22,12 @@ class MyServices extends StatefulWidget {
 }
 
 class _MyServicesState extends State<MyServices> {
-  bool isSalat = false, isQuiz = false, isRoll = false;
+  bool isExpenseTracket = false,
+      isQuiz = false,
+      isEduTechMaster = false,
+      isHadith = false,
+      isWoWfood = false,
+      isSalat = false;
   final isHoverActive = Matrix4.identity()..translate(0, -10, 0);
   final isHoverRemove = Matrix4.identity()..translate(0, 0, 0);
 
@@ -32,9 +37,12 @@ class _MyServicesState extends State<MyServices> {
     return Scaffold(
       backgroundColor: AppColors.bgColor,
       body: Helper(
-        mobile: MobileContent(size, isSalat, isQuiz, isRoll),
-        tablet: TabletContent(size, isSalat, isQuiz, isRoll),
-        desktop: DesktopContent(size, isSalat, isQuiz, isRoll),
+        mobile: MobileContent(size, isExpenseTracket, isQuiz, isEduTechMaster,
+            isHadith, isWoWfood, isSalat),
+        tablet: TabletContent(size, isExpenseTracket, isQuiz, isEduTechMaster,
+            isHadith, isWoWfood, isSalat),
+        desktop: DesktopContent(size, isExpenseTracket, isQuiz, isEduTechMaster,
+            isHadith, isWoWfood, isSalat),
         bgColor: AppColors.bgColor,
         paddingWidth: size.width * 0.04,
       ),
