@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages, unused_import
+
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/globals/app_assets.dart';
 import 'package:my_portfolio/globals/app_button.dart';
