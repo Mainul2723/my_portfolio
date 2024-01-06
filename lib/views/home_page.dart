@@ -220,7 +220,7 @@ class _HomePageState extends State<HomePage> {
   }) {
     final List<String> socialLinks = [
       'https://www.facebook.com/mainulfahimislam/',
-      'https://github.com/Mainul2723',
+      'https://github.com/mainulislamfahim',
       'https://www.linkedin.com/in/mainul-islam-b9781b263/',
       'https://www.instagram.com/f__a_h_u/',
       'https://twitter.com/Mainul2723',
