@@ -11,15 +11,31 @@ final isHoverRemove = Matrix4.identity()..translate(0, 0, 0);
 
 class TabletContent extends StatefulWidget {
   final Size size;
-  final bool isExpenseTracker,
+  final bool isShopaholic,
+      isTutorsPlan,
+      isEquiz,
+      isElearning,
+      isBlog,
+      isExpenseTracker,
       isQuiz,
       isEduTechMaster,
       isHadith,
       isWoWfood,
       isSalat;
 
-  const TabletContent(this.size, this.isExpenseTracker, this.isQuiz,
-      this.isEduTechMaster, this.isHadith, this.isWoWfood, this.isSalat,
+  const TabletContent(
+      this.size,
+      this.isBlog,
+      this.isShopaholic,
+      this.isTutorsPlan,
+      this.isEquiz,
+      this.isElearning,
+      this.isExpenseTracker,
+      this.isQuiz,
+      this.isEduTechMaster,
+      this.isHadith,
+      this.isWoWfood,
+      this.isSalat,
       {super.key});
 
   @override
@@ -27,7 +43,11 @@ class TabletContent extends StatefulWidget {
 }
 
 class _TabletContentState extends State<TabletContent> {
-  bool isExpenseTracker = false,
+  bool isShopaholic = false,
+      isTutorsPlan = false,
+      isEquiz = false,
+      isElearning = false,
+      isBlog = false,isExpenseTracker = false,
       isQuiz = false,
       isEduTechMaster = false,
       isHadith = false,
@@ -43,6 +63,164 @@ class _TabletContentState extends State<TabletContent> {
           buildMyService(),
           const SizedBox(
             height: 40,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const SizedBox(height: 24),
+              InkWell(
+                onTap: () {},
+                onHover: (value) {
+                  setState(() {
+                    isBlog = value;
+                  });
+                },
+                child: InkWell(
+                  onTap: () {},
+                  onHover: (value) {
+                    setState(() {
+                      isBlog = value;
+                    });
+                  },
+                  child: buildAnimateContainer(
+                    title: 'Blog App',
+                    asset: AppAsset.coding,
+                    hover: widget.isBlog,
+                    description:
+                    'The Flutter Blog App is a mobile application that enables users to read, create, update, and delete blog posts. The app includes features such as user authentication, a blog post list, and detailed views for reading and managing blog posts. State management is handled using the Provider package.',
+                    buttonName: 'Read More',
+                    link: 'https://github.com/mainulislamfahim/BlogApp.git',
+                  ),
+                ),
+              ), //blog
+
+            ],
+          ),
+          const SizedBox(
+            height: 26,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const SizedBox(height: 24),
+              InkWell(
+                onTap: () {},
+                onHover: (value) {
+                  setState(() {
+                    isShopaholic = value;
+                  });
+                },
+                child: InkWell(
+                  onTap: () {},
+                  onHover: (value) {
+                    setState(() {
+                      isShopaholic = value;
+                    });
+                  },
+                  child: buildAnimateContainer(
+                    title: 'Shopaholic',
+                    asset: AppAsset.coding,
+                    hover: widget.isShopaholic,
+                    description:
+                    'The Flutter Blog App is a mobile application that enables users to read, create, update, and delete blog posts. The app includes features such as user authentication, a blog post list, and detailed views for reading and managing blog posts. State management is handled using the Provider package.',
+                    buttonName: 'Read More',
+                    link: 'https://github.com/mainulislamfahim/BlogApp.git',
+                  ),
+                ),
+              ),
+              const SizedBox(height: 24),
+              InkWell(
+                onTap: () {},
+                onHover: (value) {
+                  setState(() {
+                    isTutorsPlan = value;
+                  });
+                },
+                child: InkWell(
+                  onTap: () {},
+                  onHover: (value) {
+                    setState(() {
+                      isTutorsPlan = value;
+                    });
+                  },
+                  child: buildAnimateContainer(
+                    title: 'Tutors Plan',
+                    asset: AppAsset.coding,
+                    hover: widget.isTutorsPlan,
+                    description:
+                    'The Flutter Blog App is a mobile application that enables users to read, create, update, and delete blog posts. The app includes features such as user authentication, a blog post list, and detailed views for reading and managing blog posts. State management is handled using the Provider package.',
+                    buttonName: 'Read More',
+                    link: 'https://github.com/mainulislamfahim/BlogApp.git',
+                  ),
+                ),
+              ), //Tutors Plan
+
+            ],
+          ),
+          const SizedBox(
+            height: 26,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const SizedBox(height: 24),
+              InkWell(
+                onTap: () {},
+                onHover: (value) {
+                  setState(() {
+                    isEquiz = value;
+                  });
+                },
+                child: InkWell(
+                  onTap: () {},
+                  onHover: (value) {
+                    setState(() {
+                      isEquiz = value;
+                    });
+                  },
+                  child: buildAnimateContainer(
+                    title: 'Equiz',
+                    asset: AppAsset.coding,
+                    hover: widget.isEquiz,
+                    description:
+                    'Expense Tracker App can track all our day-to-day expenses'
+                        'Features: Dard Mode theme, Pie Chart, Chart Bar, Catagorize Expenses',
+                    buttonName: 'Read More',
+                    link: 'https://github.com/Mainul2723/ExpenseTracker',
+                  ),
+                ),
+              ),
+              const SizedBox(height: 24),
+              InkWell(
+                onTap: () {},
+                onHover: (value) {
+                  setState(() {
+                    isElearning = value;
+                  });
+                },
+                child: InkWell(
+                  onTap: () {},
+                  onHover: (value) {
+                    setState(() {
+                      isElearning = value;
+                    });
+                  },
+                  child: buildAnimateContainer(
+                    title: 'Elearning',
+                    asset: AppAsset.coding,
+                    hover: widget.isElearning,
+                    description:
+                    'Expense Tracker App can track all our day-to-day expenses'
+                        'Features: Dard Mode theme, Pie Chart, Chart Bar, Catagorize Expenses',
+                    buttonName: 'Read More',
+                    link: 'https://github.com/Mainul2723/ExpenseTracker',
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(
+            height: 26,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,

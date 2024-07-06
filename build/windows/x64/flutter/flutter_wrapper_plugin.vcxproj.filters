@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\WORK\CODES\Flutter\Projects\my_portfolio\Mainul-Portfolio\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\WORK\CODES\Flutter\Projects\my_portfolio\Mainul-Portfolio\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\WORK\CODES\Flutter\Projects\my_portfolio\Mainul-Portfolio\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\WORK\CODES\Flutter\Projects\my_portfolio\Mainul-Portfolio\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{951D594C-9097-3806-A22E-276894629B2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D24246D3-E606-30BE-A384-204C0BCB9AAB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
